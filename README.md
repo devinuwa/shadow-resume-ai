@@ -2,7 +2,7 @@
 
 Shadow is an interactive, RAG-powered (Retrieval-Augmented Generation) AI agent embedded directly into my personal portfolio. Instead of just reading a static resume, visitors can chat with "Shadow" to ask specific questions about my experience, skills, projects, and background. Shadow answers intelligently, grounding its responses strictly in my personal knowledge base and providing citations for its claims.
 
-🌐 **Live Portfolio:** [https://shadowboy-tech.github.io/shadow-resume-ai/](https://shadowboy-tech.github.io/shadow-resume-ai/)
+🌐 **Live Portfolio:** [https://muhammadinuwamuhammad.tech](https://muhammadinuwamuhammad.tech)
 
 ---
 
@@ -74,7 +74,7 @@ To run the backend locally:
    PINECONE_INDEX_NAME="shadow-kb"
    EMBEDDING_MODEL_NAME="mistral-embed"
    LLM_MODEL_NAME="open-mistral-nemo"
-   ALLOWED_ORIGINS="http://localhost:3000,http://127.0.0.1:5500"
+   ALLOWED_ORIGINS="https://muhammadinuwamuhammad.tech,http://localhost:3000,http://127.0.0.1:5500"
    ```
 
 4. **Populate the Knowledge Base:**

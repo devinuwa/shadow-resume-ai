@@ -41,7 +41,7 @@ class Settings:
     # ── CORS ──
     ALLOWED_ORIGINS: list[str] = [
         origin.strip()
-        for origin in os.getenv("ALLOWED_ORIGINS", "http://localhost:3000,http://localhost:8000,http://127.0.0.1:5500").split(",")
+        for origin in os.getenv("ALLOWED_ORIGINS", "https://muhammadinuwamuhammad.tech,http://localhost:3000,http://localhost:8000,http://127.0.0.1:5500").split(",")
         if origin.strip()
     ]
 

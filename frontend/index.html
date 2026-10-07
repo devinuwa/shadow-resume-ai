@@ -5,6 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Muhammad Inuwa Muhammad — AI / ML Engineer</title>
 <meta name="description" content="Portfolio of Muhammad Inuwa Muhammad — AI/ML Engineer building physics-informed deep learning, agentic AI, and computer vision systems.">
+<link rel="canonical" href="https://muhammadinuwamuhammad.tech/">
+<meta property="og:title" content="Muhammad Inuwa Muhammad — AI / ML Engineer">
+<meta property="og:description" content="AI/ML Engineer, published researcher, and technical educator building physics-informed deep learning, agentic AI, IoT, and robotics systems.">
+<meta property="og:url" content="https://muhammadinuwamuhammad.tech/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Muhammad Inuwa Muhammad — AI / ML Engineer">
+<meta name="twitter:description" content="AI/ML Engineer, published researcher, and technical educator building physics-informed deep learning, agentic AI, IoT, and robotics systems.">
+<meta name="twitter:url" content="https://muhammadinuwamuhammad.tech/">
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -386,6 +395,32 @@ section{ padding: 110px 0; position:relative; }
 .project-card h4{ font-size:1.2rem; margin-bottom:10px; color:#fff; }
 .project-card p{ color:rgba(255,255,255,0.6); font-size:0.92rem; line-height:1.65; margin-bottom:16px; }
 
+/* ---------- Publications / Achievements ---------- */
+.publication-card{
+  border:1px solid var(--line);
+  border-radius:20px;
+  padding:34px;
+  background:var(--panel);
+  box-shadow:0 16px 40px rgba(20,16,31,0.05);
+}
+.publication-card h3{ max-width:760px; font-size:1.55rem; margin:8px 0 14px; }
+.publication-meta{ color:var(--muted); font-size:0.9rem; margin:0 0 8px; }
+.publication-link{ white-space:nowrap; padding:10px 16px; font-size:0.82rem; }
+.achievement-card{
+  height:100%;
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:24px;
+  background:var(--bg);
+}
+.achievement-card > span{
+  color:var(--coral);
+  font-family:'JetBrains Mono',monospace;
+  font-size:0.75rem;
+}
+.achievement-card h4{ font-size:1.05rem; margin:14px 0 8px; }
+.achievement-card p{ color:var(--muted); font-size:0.9rem; line-height:1.55; margin:0; }
+
 /* ---------- Contact ---------- */
 .form-control-custom{
   background:var(--panel);
@@ -447,6 +482,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
       <a class="nav-link-custom" href="#skills">Skills</a>
       <a class="nav-link-custom" href="#timeline">Journey</a>
       <a class="nav-link-custom" href="#work">Work</a>
+      <a class="nav-link-custom" href="#publications">Research</a>
+      <a class="nav-link-custom" href="#achievements">Achievements</a>
       <a class="nav-link-custom" href="#contact">Contact</a>
     </div>
     <a href="resume.pdf" download class="btn-resume">
@@ -467,7 +504,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
       <div class="col-lg-7">
         <div class="eyebrow">AI/ML ENGINEER · MECHATRONICS, FUT MINNA</div>
         <h1>Muhammad Inuwa <span class="accent">Muhammad.</span><br>I turn <span class="accent2">raw signal</span> into systems that ship.</h1>
-        <p class="hero-sub">I architect end-to-end ML pipelines — from k-space data and model design through to deployment — across medical imaging, robotics, NLP, and agentic AI. First Runner-Up at the RAIN × Meta AI Developer Academy Nigeria Hackathon, and a UN Millennium Fellow.</p>
+        <p class="hero-sub">I'm an AI/ML Engineer, published researcher, and technical educator building end-to-end systems across medical imaging, robotics, IoT, NLP, and agentic AI. I presented my MRI reconstruction research in France at MIRASOL 2026.</p>
         <div class="d-flex flex-wrap gap-3">
           <a href="#work" class="btn-bold">See my work <i class="bi bi-arrow-down-right"></i></a>
           <a href="#contact" class="btn-outline-bold">Let's talk <i class="bi bi-arrow-up-right"></i></a>
@@ -510,10 +547,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
       </div>
       <div class="col-lg-7 reveal">
         <p class="about-lead">
-          I'm an AI/ML Engineer and Mechatronics Engineering student at the Federal University of Technology Minna, focused on building intelligent systems that leave the notebook and reach real users. My core research is physics-informed deep learning for low-field MRI reconstruction — extending the End-to-End Variational Network with physics priors to make faster, more affordable scans viable in resource-limited settings.
+          I'm an AI/ML Engineer, published researcher, and technical educator studying Mechatronics Engineering at the Federal University of Technology Minna. I build intelligent systems that leave the notebook and reach real users, with hands-on experience in medical imaging AI, agentic systems, IoT, 3D printing, and autonomous robotics.
         </p>
         <p class="about-lead">
-          I'm currently applying that same end-to-end discipline as an AI Robotics Engineer Intern at Coderina Edtech and a Machine Learning Intern at FlyRank AI, working across robotics, computer vision, and production ML pipelines. Earlier, I led a 13-person team building a road-hazard detection system, shipped a multilingual AI loan advisor for rural farmers, and scaled an agentic productivity bot to 65+ active users — each time owning the pipeline from data to deployment.
+          My physics-informed low-field MRI reconstruction research was presented at an international conference in France in 2026. I facilitate technical workshops for children and polytechnic educators, and serve as Technical Lead at Notion@FUTMinna. Earlier, I led a 13-person team building a road-hazard detection system, shipped a multilingual AI loan advisor for rural farmers, and scaled an agentic productivity bot to 65+ active users.
         </p>
       </div>
     </div>
@@ -532,7 +569,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
         <span class="skill-tag">Computer Vision</span><span class="skill-tag">Natural Language Processing</span>
         <span class="skill-tag">MLOps</span><span class="skill-tag">Generative AI</span>
         <span class="skill-tag">Microcontrollers</span><span class="skill-tag">Robotics</span>
-        <span class="skill-tag">Agentic AI</span>
+        <span class="skill-tag">Agentic AI</span><span class="skill-tag">3D Printing / Rapid Prototyping</span>
+        <span class="skill-tag">Electrical Installation</span><span class="skill-tag">TinkerCAD</span>
+        <span class="skill-tag">Notion</span>
       </div>
     </div>
 
@@ -555,8 +594,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
           <h4>Medical Imaging &amp; Computer Vision</h4>
           <div class="skill-tags">
             <span class="skill-tag">E2E-VarNet</span><span class="skill-tag">MRI Reconstruction</span>
-            <span class="skill-tag">k-space Processing</span><span class="skill-tag">CNN</span>
+            <span class="skill-tag">k-space MRI Processing</span><span class="skill-tag">CNN</span>
             <span class="skill-tag">OpenCV</span><span class="skill-tag">SSIM / PSNR</span>
+            <span class="skill-tag">ISMRMRD / HDF5</span>
           </div>
         </div>
       </div>
@@ -601,6 +641,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
           <div class="skill-tags">
             <span class="skill-tag">Arduino</span><span class="skill-tag">ESP32</span>
             <span class="skill-tag">Microcontrollers</span><span class="skill-tag">IoT</span>
+            <span class="skill-tag">TinkerCAD Simulation</span><span class="skill-tag">Electrical Installation</span>
             <span class="skill-tag">Telegram Bot API</span>
           </div>
         </div>
@@ -623,10 +664,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 
           <div class="timeline-item work">
             <div class="timeline-dot"></div>
-            <span class="timeline-year">2026 — PRESENT</span>
-            <h4>AI Robotics Engineer, Intern <span class="tl-type-badge work">Work</span></h4>
+            <span class="timeline-year">2026 · 6 MONTHS</span>
+            <h4>Mechatronics Engineering Intern <span class="tl-type-badge work">Work</span></h4>
             <div class="role-org">Coderina Edtech</div>
-            <p class="desc">Building an industrial-sorting robotic arm and an autonomous robotic dog; teaching AI fluency and LEGO Spike to young learners.</p>
+            <p class="desc">Designed and fabricated physical prototypes with 3D printing, integrated sensors and embedded systems through IoT, built functional technology systems and tools, and handled hands-on electrical installation and hardware setup. Facilitated a one-month summer IoT workshop for children with an age-appropriate curriculum covering sensors, microcontrollers, and basic automation.</p>
           </div>
 
           <div class="timeline-item work">
@@ -635,6 +676,22 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
             <h4>Machine Learning Intern <span class="tl-type-badge work">Work</span></h4>
             <div class="role-org">FlyRank AI · Remote</div>
             <p class="desc">Building end-to-end machine learning and deep learning pipelines.</p>
+          </div>
+
+          <div class="timeline-item work">
+            <div class="timeline-dot"></div>
+            <span class="timeline-year">2026</span>
+            <h4>Technical Lead <span class="tl-type-badge work">Current</span></h4>
+            <div class="role-org">Notion@FUTMinna</div>
+            <p class="desc">Serve as Technical Lead for the official Notion student community at FUTMinna. Drive digital productivity and knowledge-management culture, organise technical sessions, onboard members, and build Notion templates and workflows for academic and project use.</p>
+          </div>
+
+          <div class="timeline-item work">
+            <div class="timeline-dot"></div>
+            <span class="timeline-year">2026</span>
+            <h4>Secretariat <span class="tl-type-badge work">Workshop</span></h4>
+            <div class="role-org">Apex Level Technical Education Services Workshop</div>
+            <p class="desc">Served as Secretariat for a 5-day national-level workshop on the implementation of the National Diploma in Artificial Intelligence, working with polytechnic lecturers and education policymakers. Facilitated practical sessions walking lecturers through microcontroller simulation using TinkerCAD, enabling educators to teach IoT and embedded systems confidently in their institutions.</p>
           </div>
 
           <div class="timeline-item edu">
@@ -650,29 +707,6 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
             <h4>AI Developer &amp; Customer Support <span class="tl-type-badge work">Work</span></h4>
             <div class="role-org">Togo Mobility Limited</div>
             <p class="desc">Delivered a production AI booking automation system that cut processing time by 60% and onboarded 20+ riders; provided bilingual (English/Hausa) support.</p>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-dot" style="border-color:var(--violet)"></div>
-            <span class="timeline-year">2025</span>
-            <h4>First Runner-Up <span class="tl-type-badge award">Award</span></h4>
-            <div class="role-org">RAIN × Meta AI Developer Academy Nigeria Hackathon</div>
-            <p class="desc">Nationally recognized for applied AI innovation and engineering excellence.</p>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-dot" style="border-color:var(--violet)"></div>
-            <span class="timeline-year">2025</span>
-            <h4>Millennium Fellow <span class="tl-type-badge award">Award</span></h4>
-            <div class="role-org">United Nations Academic Impact &amp; Millennium Campus Network</div>
-            <p class="desc">Selected globally for leadership, innovation, and social impact contributions.</p>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-dot" style="border-color:var(--amber)"></div>
-            <span class="timeline-year">2024</span>
-            <h4>Scholarship Recipient <span class="tl-type-badge edu">Education</span></h4>
-            <div class="role-org">Halima Ibrahim Babangida Foundation</div>
           </div>
 
           <div class="timeline-item work">
@@ -699,16 +733,20 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
     <div class="case-study mt-5 reveal">
       <div class="row align-items-center g-5">
         <div class="col-lg-7">
-          <span class="tag-pill">PyTorch</span><span class="tag-pill">E2E-VarNet</span><span class="tag-pill">Medical Imaging</span><span class="tag-pill">2025</span>
-          <h3 class="mt-3 mb-3" style="font-size:1.8rem;">Physics-Informed MRI Reconstruction for Low-Field MRI</h3>
+          <span class="tag-pill">Medical Imaging</span><span class="tag-pill">Deep Learning</span><span class="tag-pill">Physics-Informed AI</span><span class="tag-pill">Published Research</span><span class="tag-pill">International Conference</span>
+          <h3 class="mt-3 mb-3" style="font-size:1.8rem;">Physics-Informed Deep Learning for Accelerated Open-Source Low-Field MRI Reconstruction</h3>
           <p style="color:rgba(255,255,255,0.68); line-height:1.75;">
-            Low-field MRI scanners produce noisy, low-resolution images with long scan times — a real barrier in resource-limited settings like Nigeria. I extended the End-to-End Variational Network with physics-informed priors from the MRI forward model, built a full k-space preprocessing pipeline with retrospective undersampling, and validated reconstruction quality across multiple acceleration factors using SSIM, PSNR, and NMSE.
+            Benchmarked five reconstruction paradigms (U-Net, CascadeNet, MoDL, DUN-DD, and E2E-VarNet) on real OSI² ONE 47 mT low-field MRI data using rigorous nine-fold Leave-One-Subject-Out cross-validation. The work is motivated by improving MRI accessibility in low-resource and rural settings where conventional 1.5–3T scanners are too expensive.
           </p>
           <div class="mt-4">
-            <div class="metric-pill"><span class="val">0.86</span><span class="lbl">SSIM Achieved</span></div>
-            <div class="metric-pill"><span class="val">↓ Scan</span><span class="lbl">Time enabled</span></div>
-            <div class="metric-pill"><span class="val">3</span><span class="lbl">Eval metrics</span></div>
+            <div class="metric-pill"><span class="val">0.8212 ± 0.0139</span><span class="lbl">Best SSIM · E2E-VarNet</span></div>
+            <div class="metric-pill"><span class="val">30.06 ± 0.75 dB</span><span class="lbl">Best PSNR</span></div>
+            <div class="metric-pill"><span class="val">+0.3158 / +7.50 dB</span><span class="lbl">Gain over U-Net</span></div>
+            <div class="metric-pill"><span class="val">98K vs 1.48M</span><span class="lbl">CascadeNet parameters</span></div>
           </div>
+          <p class="mt-3 mb-0" style="color:rgba(255,255,255,0.58); font-size:0.88rem; line-height:1.7;">CascadeNet matched performance with ~15× fewer parameters. A zero-shot sweep evaluated acceleration factors from R=2 up to R=12 without retraining. Stack: PyTorch, E2E-VarNet, CascadeNet, MoDL, DUN-DD, U-Net, k-space processing, SSIM/PSNR, ISMRMRD HDF5, and Compute Canada GPUs.</p>
+          <p class="mt-3 mb-0" style="color:rgba(255,255,255,0.58); font-size:0.88rem; line-height:1.7;"><strong style="color:var(--amber);">MIRASOL — MICCIA 2026, France:</strong> Accepted paper and poster, co-authored with researchers from FUTMinna, University of Ilorin, McGill University Montreal, University of British Columbia, and MAI Lab Lagos.</p>
+          <p class="mt-3 mb-0" style="color:rgba(255,255,255,0.48); font-size:0.78rem; line-height:1.7;">Authors: Tolough Nelson Aondongu, Muhammad Inuwa Muhammad, Tella Adetayo, Victor Ejike Onyedim, Joseph John, Ayatullah Hanif Showunmi, Zhang Dong, Confidence Raymond, Udunna C. Anazodo, Aondona Moses Iorumbur, Sanni Henry Ananyi.</p>
         </div>
         <div class="col-lg-5">
           <div style="background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.1); border-radius:16px; padding:24px; font-family:'JetBrains Mono',monospace; font-size:0.82rem; color:rgba(255,255,255,0.6); line-height:1.9;">
@@ -770,6 +808,44 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   </div>
 </section>
 
+<!-- ============ PUBLICATIONS ============ -->
+<section id="publications">
+  <div class="container">
+    <div class="section-tag reveal">Publications</div>
+    <h2 class="section-title reveal">Research with practical impact.</h2>
+    <div class="publication-card reveal mt-5">
+      <div class="d-flex flex-wrap justify-content-between gap-3 align-items-start">
+        <div>
+          <span class="timeline-year">MIRASOL · MICCIA WORKSHOP · FRANCE · 2026</span>
+          <h3>Physics-Informed Deep Learning for Accelerated Open-Source Low-Field MRI Reconstruction</h3>
+        </div>
+        <div class="d-flex gap-2">
+          <a href="#" class="btn-outline-bold publication-link">View Poster <i class="bi bi-arrow-up-right"></i></a>
+          <a href="#" class="btn-bold publication-link">View Paper <i class="bi bi-arrow-up-right"></i></a>
+        </div>
+      </div>
+      <p class="publication-meta">Tolough Nelson Aondongu, Muhammad Inuwa Muhammad, et al.</p>
+      <p class="publication-meta">Affiliations: FUTMinna · University of Ilorin · McGill University · University of British Columbia · MAI Lab Lagos</p>
+      <p class="about-lead mb-0">Benchmarked five physics-informed reconstruction paradigms on the OSI² ONE 47 mT low-field MRI dataset. E2E-VarNet achieved SSIM of 0.8212 with a +7.50 dB PSNR gain over U-Net. CascadeNet provides near-equivalent quality with ~15× fewer parameters.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACHIEVEMENTS ============ -->
+<section id="achievements" style="background:#fff;border-top:1px solid var(--line);">
+  <div class="container">
+    <div class="section-tag reveal">Achievements</div>
+    <h2 class="section-title reveal">Milestones worth sharing.</h2>
+    <div class="row g-3 mt-4">
+      <div class="col-md-6 col-lg-4 reveal"><div class="achievement-card"><span>01</span><h4>International Research Presenter</h4><p>MIRASOL, MICCIA Conference, France (2026)</p></div></div>
+      <div class="col-md-6 col-lg-4 reveal"><div class="achievement-card"><span>02</span><h4>Technical Lead</h4><p>Notion@FUTMinna (2026–Present)</p></div></div>
+      <div class="col-md-6 col-lg-4 reveal"><div class="achievement-card"><span>03</span><h4>First Runner-Up</h4><p>RAIN x Meta AI Developer Academy Nigeria Hackathon (2025)</p></div></div>
+      <div class="col-md-6 col-lg-4 reveal"><div class="achievement-card"><span>04</span><h4>Millennium Fellow</h4><p>United Nations Academic Impact &amp; MCN (2025)</p></div></div>
+      <div class="col-md-6 col-lg-4 reveal"><div class="achievement-card"><span>05</span><h4>Scholarship Recipient</h4><p>Halima Ibrahim Babangida Foundation (2024)</p></div></div>
+    </div>
+  </div>
+</section>
+
 <!-- ============ CONTACT ============ -->
 <section id="contact" style="background:#fff;">
   <div class="container">
@@ -794,6 +870,18 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
         <a href="https://github.com/shadowboy-tech" target="_blank" rel="noopener" class="contact-link-item">
           <span class="ic"><i class="bi bi-github"></i></span>
           <span>github.com/shadowboy-tech</span>
+        </a>
+        <a href="https://kaggle.com/muhinuwa" target="_blank" rel="noopener" class="contact-link-item">
+          <span class="ic"><i class="bi bi-bar-chart-line"></i></span>
+          <span>kaggle.com/muhinuwa</span>
+        </a>
+        <a href="https://x.com/shadowboy_AI" target="_blank" rel="noopener" class="contact-link-item">
+          <span class="ic"><i class="bi bi-twitter-x"></i></span>
+          <span>x.com/shadowboy_AI</span>
+        </a>
+        <a href="https://muhammadinuwamuhammad.tech" target="_blank" rel="noopener" class="contact-link-item">
+          <span class="ic"><i class="bi bi-globe2"></i></span>
+          <span>muhammadinuwamuhammad.tech</span>
         </a>
       </div>
 
@@ -833,7 +921,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
     <div class="d-flex gap-3">
       <a href="https://github.com/shadowboy-tech" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.55)"><i class="bi bi-github"></i></a>
       <a href="https://linkedin.com/in/muhammad-inuwa-muhammad" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.55)"><i class="bi bi-linkedin"></i></a>
+      <a href="https://kaggle.com/muhinuwa" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.55)"><i class="bi bi-bar-chart-line"></i></a>
+      <a href="https://x.com/shadowboy_AI" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.55)"><i class="bi bi-twitter-x"></i></a>
       <a href="mailto:inuwamuhammad930@gmail.com" style="color:rgba(255,255,255,0.55)"><i class="bi bi-envelope"></i></a>
+      <a href="https://muhammadinuwamuhammad.tech" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.55)"><i class="bi bi-globe2"></i></a>
     </div>
   </div>
 </footer>

@@ -1,9 +1,11 @@
 # About Muhammad
 
-Muhammad Inuwa Muhammad is an AI/ML Engineer based in Niger State, Nigeria,
+Muhammad Inuwa Muhammad is an AI/ML Engineer, published researcher, and technical
+educator based in Niger State, Nigeria,
 currently in his final year (400 Level) of a Bachelor of Engineering in
 Mechatronics Engineering at the Federal University of Technology Minna. He
-works across deep learning, computer vision, NLP, and agentic AI systems, and
+works across medical imaging AI, deep learning, computer vision, NLP, agentic
+systems, IoT, 3D printing, and autonomous robotics, and
 has shipped projects that serve real users in healthcare, transport, finance,
 and productivity — not just research demos.
 
@@ -15,13 +17,14 @@ actual users.
 
 ## Notable Work
 
-Muhammad's standout project is a physics-informed MRI reconstruction system
-for low-field MRI scanners, built on an extended End-to-End Variational
-Network (E2E-VarNet) with physics-informed priors from the MRI forward model.
-It reached a Structural Similarity Index (SSIM) of 0.86 on reconstructed
-images, improving diagnostic image quality while cutting scan acquisition
-time — aimed squarely at resource-limited clinical settings like those in
-Nigeria and other emerging markets.
+Muhammad's standout project is Physics-Informed Deep Learning for Accelerated
+Open-Source Low-Field MRI Reconstruction. He benchmarked U-Net, CascadeNet,
+MoDL, DUN-DD, and E2E-VarNet on real OSI² ONE 47 mT data using nine-fold
+Leave-One-Subject-Out cross-validation. E2E-VarNet achieved SSIM 0.8212 ±
+0.0139 and PSNR 30.06 ± 0.75 dB, with +0.3158 SSIM and +7.50 dB PSNR over the
+U-Net baseline. CascadeNet matched performance with roughly 15 times fewer
+parameters. He presented the accepted paper and poster at MIRASOL — MICCIA
+International Conference 2026 in France.
 
 He also led a 13-member multidisciplinary team building a road abnormalities
 detector (potholes, cracks, bumps) from image data, managing the project from
@@ -45,6 +48,14 @@ outreach — meaning he can build the system and also go get the users. Earlier,
 as Community Manager & Customer Support at Jekaeat, he grew community
 engagement by 40% and resolved 95%+ of customer inquiries within SLA.
 
+He facilitates technical workshops for children and polytechnic educators. At
+Coderina Edtech Foundation, he gained experience in 3D printing and prototype
+fabrication, IoT sensor integration and embedded systems, system development,
+and electrical installation. He facilitated a one-month summer IoT workshop
+for children and designed a curriculum covering sensors, microcontrollers, and
+basic automation. He also serves as Technical Lead at Notion@FUTMinna,
+organising technical sessions and building productivity workflows.
+
 He's fluent in English and Hausa, which has directly shaped projects like the
 multilingual loan advisor and his bilingual customer outreach work.
 
@@ -66,10 +77,14 @@ On the NLP and multimodal side: LLaMA 3.1, Transformers, Whisper ASR,
 Tesseract OCR, gTTS, RAG, and prompt engineering. In agentic AI: multi-agent
 orchestration, tool-use pipelines, and the Telegram Bot API. He also has
 data engineering experience (Pandas, NumPy, ETL pipelines) and some cloud/IoT
-exposure (Firebase Realtime Database, REST APIs, CI/CD, Arduino, ESP32).
+exposure (Firebase Realtime Database, REST APIs, CI/CD, Arduino, ESP32),
+TinkerCAD microcontroller simulation, electrical installation, and Notion.
 
 ## Contact
 
 - GitHub: github.com/shadowboy-tech
 - LinkedIn: linkedin.com/in/muhammad-inuwa-muhammad
+- Kaggle: kaggle.com/muhinuwa
+- X: x.com/shadowboy_AI
+- Website: muhammadinuwamuhammad.tech
 - Email: inuwamuhammad930@gmail.com
